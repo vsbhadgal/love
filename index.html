@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #11111b;
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        font-family: sans-serif;
+      }
+      h1 {
+        font-size: 3.5rem;
+        font-weight: 900;
+        text-shadow: 0 -2px 5px rgba(255, 255, 255, 0.2),
+          1px 3px 10px rgba(255, 0, 0, 0.5);
+        color: white;
+      }
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2rem;
+        }
+      }
+      canvas {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -100000;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <h1>I LOVE YOU VAISHU ❤️</h1>
+    <script src="script.js"></script>
+  </body>
+</html>
